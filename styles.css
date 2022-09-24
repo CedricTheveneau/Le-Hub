@@ -1,0 +1,37 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+main {
+  scroll-behavior: smooth;
+  width: 100vw;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.container-fluid {
+  min-width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+#lab {
+  width: 100vw;
+  height: 100vh;
+  background-color: orange;
+}
+
+#hub {
+  width: 100vw;
+  height: 100vh;
+  background-color: purple;
+}
+
+#devolution {
+  width: 100vw;
+  height: 100vh;
+  background-color: green;
+}
