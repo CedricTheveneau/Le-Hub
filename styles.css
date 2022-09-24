@@ -2,9 +2,20 @@
   display: none;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+.h {
+  background-color: black;
+  height: 5vh;
+  width: 300vw;
+}
+
 main {
   scroll-behavior: smooth;
   width: 100vw;
+  height: 90vh;
   display: flex;
   overflow-x: auto;
   overflow-y: auto;
@@ -34,4 +45,10 @@ main {
   width: 100vw;
   height: 100vh;
   background-color: green;
+}
+
+.f {
+  background-color: blue;
+  height: 5vh;
+  width: 300vw;
 }
